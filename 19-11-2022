@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>HTML - Hyper Text Markup Language</title>
+
+    </head>
+    <body>
+        <p>this is the first paragraph tag</p>
+        <h1>Header - 1</h1>
+        <h2>Header<br> - 2</h2>
+        <p>Defines the <strong>bold</strong> letters</p>
+        <p>Defines the <em>Italic</em> letters</p>
+        <p>Defines the <del>dashed </del> letters</p>
+        <p>Defines the <ins>underlined</ins> letters</p>
+        <p>Defines the <sup>sup</sup> letters</p>
+        <p> Defines the <sub>Sub</sub> letters</p>
+        <hr>
+        <br>
+        <p>Defines the unordered list</p>
+        <ul>
+            <li>Father - <strong>Babu Rao</strong></li>
+            <hr>
+            <li>Mother - <em>Annapurna</em></li>
+            <hr>
+            <li>Sister - <ins>Meghana</ins></li>
+            <hr>
+            <li>Friends - <strong>Mamatha</strong> </li>
+            <br>
+            <hr>
+        </ul>
+        <br>
+        <p>Defines the ordered list</p>
+        <ol>
+            <li>Mamatha - <strong>Banglore</strong></li>
+            <li>Sandeep - <em>Banglore</em></li>
+        </ol>
+        <ol start="1">
+            <li>Ashok - <ins>From Andhra Pradesh</ins></li>
+            <li>Hemasagar - <em>From Andhra Pradesh</em></li>
+        </ol>
+        <ol type="i">
+            <li>Himanshu - <strong>North Area</strong></li>
+            <li>Vrushali - <em>North Area</em></li>
+        </ol>
+        <br>
+        <p>Adding Images to the web</p>
+        <img src="C:\Users\dg6172\Desktop\Complete Web Developer\1-html\TomandJerryTitleCardc.jpg" width="500" height="500" align="center">
+        <br>
+        <br>
+        <form>
+            <p>Name of the Person: <input type="text"></p>
+            <p>Occupation: <input type="text"></p>
+            <p>male <input type="checkbox" name="o23"></p>
+            <p>female <input type="checkbox" name="o23"></p>
+            <p>age - 18+ <input type="radio" name="1234"></p>
+            <p>age - 18- <input type="radio" name="1234"></p>
+            <p>favourite food
+                <select>
+                    <option selected>indian style</option>
+                    <option>Chinese Style</option>
+                    <option>American Style</option>
+                    <option>German Style</option>
+                    <option>Russian Style</option>
+                </select>
+            </p>
+            <p>submit: <input type="submit" value="click me"></p>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>mobile number</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>sai</td>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <td>mamatha</td>
+                    <td>09876</td>
+                </tr>
+                <tr>
+                    <td>apoorva</td>
+                    <td>45678</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
