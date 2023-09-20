@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript_Day-6</title>
+
+</head>
+<body>
+
+    <p id="first para">Changing the website content</p>
+    <button id="firstbut">First Button</button>
+    <p id="Second para">Changing the website-2 content</p>
+    <button id="secondbut">Second Button</button>
+    <p id="third para">Changing the website-3 content</p>
+    <button id="thirdbut">Third Button</button>
+    <script type="text/javascript">
+        //using the below code, the para will be chnages
+        document.getElementById('firstbut').onclick=function(){
+            document.getElementById('first para').innerHTML='newcode';
+        }
+        //Using the below code, the second onclick button function is defines and para will be changed. 
+        document.getElementById('secondbut').onclick=function(){
+            document.getElementById('Second para').innerHTML='this is the second button on this page';
+        }
+
+        // Below is used to append the word with already existing ones.
+        document.getElementById('thirdbut').onclick=function(){
+
+            document.getElementById('third para').innerHTML=document.getElementById('first para').innerHTML + ' AWESOME';
+        }
+    </script>
+
+</body>
+</html>
