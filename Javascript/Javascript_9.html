@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript file</title>
+
+    </head>
+    <body>
+        <p>How many fingers am i holding to</p>
+        <input type="text" id="mybox">
+        <button id="first_but">Click Here</button>
+        <script type="text/javascript">
+            document.getElementById('first_but').onclick=function()
+            {
+                var user_value='';
+                user_value = document.getElementById('mybox').value;
+                var randomnumber = Math.random();
+                randomnumber = randomnumber*6;
+                randomnumber = Math.floor(randomnumber);
+                if(randomnumber==user_value)
+                {
+                    alert('samevalue as' +randomnumber)
+                }
+                else{
+                    alert('both are not matched')
+                }
+            }
+
+        </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This defines the continousion of while loops from file no-11</title>
+
+
+    </head>
+    <body>
+        <p id="first_para">Please enter the random nuber: </p>
+        <input type="text" id="box_text">
+        <button id="first_but">Click Me</button>
+        <script type="text/javascript">
+
+            document.getElementById("first_but").onclick=function()
+            {
+
+                var gotit=false;
+                var numberofguesses = 1;
+                var mynum = document.getElementById("box_text").value();
+                While(gotit==false)
+                {
+                    var guess_num = Math.random();
+                    guess_num = guess_num *6;
+                    guess_num = Math.floor(guess_num);
+                    if(mynum == guess_num)
+                    {
+                        gotit=true;
+                        alert("same number" +numberofguesses+ "attempt");
+                    }
+                    else
+                    {
+                        alert("Both are different numbers");
+                        numberofguesses++;
+                    }
+                }    
+            }
+        </script>
+
+    </body>
+
+</html>

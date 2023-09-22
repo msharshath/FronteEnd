@@ -1,0 +1,108 @@
+<!---<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            function alertMe()
+            {
+                alert('sai');
+            }
+
+        alertMe();
+        </script>
+    </body>
+</html>
+-->
+
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Page-2</title>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            function sai(a,b)
+            {
+                return ((a+b)/2);
+            }
+            var x=10;
+            var y=12;
+            alert(sai(x,y));
+        </script>
+    </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript page -3</title>
+
+    </head>
+    <body>
+
+        <p>This file describes whether the user number is same as a random number or not</p>
+
+        <select id="select_number">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+        </select>
+
+        <button id="first_but">Click Me</button>
+        
+        <script type="text/javascript">
+
+            function guess(user_number)
+            {
+                var com_number = Math.random();
+                com_number = com_number * 6;
+                com_number = Math.floor(com_number);
+
+                if(user_number == com_number)
+                {
+                    return true;
+
+                }
+                else{
+                    return false;
+                }
+            }
+
+            document.getElementById("first_but").onclick = function()
+            {
+                var above_num = document.getElementById('select_number').value;
+                var gotit = false;
+
+                while(gotit==false)
+                {
+                    if(guess(above_num)==true)
+                    {
+                        gotit=true;
+                        alert("same number");
+                    }
+                    else
+                    {
+                        alert("Both are different numbers");
+                    }
+                }
+
+
+            }
+
+
+
+
+
+        </script>
+
+    </body>
+
+
+</html>

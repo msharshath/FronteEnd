@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <style type="text/css">
+            #mark{
+
+                color:red;
+            }
+        </style>
+        
+    </head>
+    <body>
+
+        <p id="mark">This is the paragraph wriiten on this page</p>
+        <button id="first_but">Click Me</button>
+        <script type="text/JavaScript">
+            document.getElementById("first_but").onclick=function(){
+                document.getElementById("mark").innerHTML="chnaged by Sai";
+                document.getElementById('mark').style.color="green";
+            }
+        </script>
+
+    </body>
+
+
+</html>

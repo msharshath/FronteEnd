@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript File</title>
+    </head>
+    <body>
+        <p>File is continousion to 11 and 11_1 file.</p>
+        <p>How many fingers you are opened? </p>
+        <select id="user_select_num">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <button id="first_but">Click Me</button>
+        <script type="text/javascript">
+
+            document.getElementById("first_but").onclick = function(){
+
+                var num_sele = document.getElementById("user_select_num").value;
+                
+                var gotit = false;
+                
+                While(gotit == false)
+                {   
+                    var some_num = Math.random();
+                    some_num = some_num*6;
+                    some_num = Math.floor(some_num);
+
+                    if(some_num==num_sele)
+                    {
+                        gotit=true;
+                        alert("same number"+some_num);
+                    }
+                    else
+                    {
+                        alert("Different number");
+
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
