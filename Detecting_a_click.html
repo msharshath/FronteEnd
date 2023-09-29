@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuer123y</title>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <style type="text/css">
+            #circle{
+                width:150px;
+                height:150px;
+                border-radius:50%;
+                background-color: green;
+                margin:10 x;
+            }
+
+            .square{
+                width:150px;
+                height:150px;
+                background-color: green;
+                margin:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="circle"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+
+        <script type="text/javascript">
+            $("#circle").click(function()
+            {
+                alert('circle was clicked');
+            });
+
+            $(".square").click(function()
+            {
+                alert('square was clicked');
+            });
+
+            $("#circle").click(function()
+            {
+                alert('circle was clicked');
+            });
+
+        </script>
+
+    </body>
+</html>
