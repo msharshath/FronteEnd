@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery</title>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <style type="text/css">
+            #circle{
+                background-color:orange;
+                height:100px;
+                width:100px;
+                margin:150px;
+                border-radius:50%;
+            }
+            .square{
+                background-color:red;
+                height:100px;
+                width:100px;
+                margin:150px;
+            }
+        </style>
+    </head>
+<!--The below fadeout() is used to disappear from the screen-->
+    <!--'this' keyword defines as current selection in the page-->
+    <!--(this).fadeOut("slow",function() is used to fadeout slowly and once disappear everything, then it will popup with a message-->
+    <body>
+        <div id="circle"></div>
+        <div class="square"></div>
+        <script type="text/javascript">
+            $("div").click(function(){
+                $(this).fadeOut("slow",function(){
+                    alert("fadeout compltly now")
+                });
+            });
+        </script>
+    </body>
+</html>
+
