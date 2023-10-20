@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Capstone Project</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    </head>
+    <body>
+
+        <!----------------------------------------------Nav Bar------------------------------------------->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Codestars</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                  </li>
+                  <!--
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                    -->
+                </ul>
+                
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+
+        <!---------------------------------------------------Main Heading as Jumbotron----------------------------------------------------->
+
+        <div class="container text-center">       
+            <div class="p-5 mb-4  rounded-3">
+                <div class="container py-5">
+                    <h1 class="display-5 fw-bold text-center">Custom jumbotron</h1>
+                    <p class="col-md-12 fs-5 text-center mt-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-lg" type="button">Join Today</button>
+                        <button class="btn btn-secondary btn-lg btn-light btn-outline-dark" type="button">See Catalogue</button>
+                    </div>
+                    
+                </div>
+                <div class="overflow-hidden" style="max-height: 30vh;">
+                    <div class="container px-5">
+                        <img src="file:///C:/Users/z004tu0x/Downloads/09-project/09-project/imgs/sample.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
+                        height="500" loading="lazy">
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+        <!----------------------------------------------------- Card Image ----------------------------------------------------->
+
+        <div class="container col-lg-11">
+            <div class="row">
+                <div class="col mb-4" style="width: 18rem;">
+                    <div class="align-items-center">
+                        <h5 class="display-4 fw-bold lh-1 mb-3 col-lg-8">Sign up to Our Newsletter!</h5>
+                        <p class="fs-4 col-lg-7">Get all the latest updates right in your inbox! We add new courses all the time and as a subscriber, you will get access to all the early bird coupons.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-10 mx-auto col-lg-5 text-center">
+                    <form class="p-4 p-md-5 border rounded-3 bg-light" data-bitwarden-watching="1">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                        <hr class="my-4">
+                        <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-------------------------------------------------------------------- Cards ---------------------------------------------------------->
+        <div class="container text-center">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img  src="https://cdn-wordpress-info.futurelearn.com/wp-content/uploads/FL191_Tech_Banner-1-606x303.jpg.optimal.jpg" class="card-img-top" alt="Courses Info">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Let's Go!</a>
+                        </div>
+                        <!--<button class="col-3 w-50 btn btn-sm btn-primary">Submit</button>-->
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS1M1xO5tpV8YF8Tx5raIxZbhAZltqs1zpQA&usqp=CAU" class="card-img-top" alt="Software Courses">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Let's Go!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzrZPmjyIGshNFuFRO4vLUrUi7GeuQHmjgrw&usqp=CAU" class="card-img-top" alt="New COurse Info">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Let's Go!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+        <!-------------------------------------------------------------------- table ---------------------------------------------------------->
+        <div class="container">
+            <div class="display-5 text-center mt-5">
+                <h>Compare Plans</h>
+            </div>
+            <table class="table mt-2 text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Plan</th>
+                    <th scope="col">Support</th>
+                    <th scope="col">Repeating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lifetime Access</td>
+                    <td><i class="bi bi-check"></i></td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Monthly Plan </td>
+                    <td><i class="bi bi-check"></i></td>
+                    <td><i class="bi bi-check"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Custom Plan</td>
+                    <td><i class="bi bi-check"></i></td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+
+            </table>
+            <div class="container">
+                <p class="py-4">Codestars is a digital publishing company specialising in fun, practical and comprehensive online courses in the most in-demand coding, technology and business skills topics.</p>
+            </div>
+
+        </div>
+
+
+        <!------------------------------------------------------------------Footer ----------------------------------------------------------------->
+        <div class="overflow-hidden text-center" style="max-height: 40vh;">
+            <footer>
+                <div class="card text-bg-dark">
+                    <img src="https://images.ctfassets.net/cnu0m8re1exe/7bvBF6E4WXVLLIsH88lXcC/5a3b7483a82fb30248e7d1c7856be6ec/20-things-color.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="display-4 card-title">Some Information</h5>
+                        <p class="card-text col">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                        <div class="text-center mt-5">
+                            <button class="btn btn-primary btn-lg" type="button">Join Today</button>
+                            <button class="btn btn-secondary btn-lg btn-light btn-outline-dark" type="button">See Catalogue</button>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    </body>
+</html>

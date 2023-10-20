@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document-Nav bars</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- -----------------------------------------------------Nav Bar-------------------------------------------------------------------- -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Resume</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Language Skills
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English - C2</a></li>
+                      <li><a class="dropdown-item" href="#">German - B1</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Telugu - Mother Tongue</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-sm btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- -----------------------------------------------------Nav Bar-------------------------------------------------------------------- -->
+
+        
+        
+        <!-- -----------------------------------------------------Form with my Email address and Password---------------------------------------- -->
+        <div class="container col-sm-6 col-lg-9">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <label for="inputPassword5" class="col-sm form-label">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </div>
+        </div>
+        <!-- -----------------------------------------------------Form with my Email address and Password---------------------------------------- -->
+        <br>
+
+        <!-- -----------------------------------------------------Form with my Email address and Password and submit button---------------------------------------- -->
+
+        <div class=" container form-floating mb-3 col-10">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="container form-floating col-10">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="mt-4 container col-lg-10">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+
+
+        <!-- -----------------------------------------------------Form with my Email address and Password and submit button---------------------------------------- -->
+
+        <!-- -----------------------------------------------------Inline Forms---------------------------------------- -->
+        <br>
+        <p class="lead text-center">Inline Forms</p>
+        <div class="row">
+            <div class="col-5">
+                <input type="email" class="form-control" id="tEmail" placeholder="Email address"/>
+            </div>
+            <div class="col-5">
+                <input class="form-control" type="password" id="pass" placeholder="Password"/>
+            </div>
+            <div class="col-2">
+                <input class="btn btn-primary" type="submit"/>
+            </div>
+        </div>
+
+        <!-- -----------------------------------------------------Inline Forms---------------------------------------- -->
+
+        <!-- -----------------------------------------------------Layout---------------------------------------- -->
+        <br>
+        <form>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="">
+                <label class="">&nbsp;</label>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Submit Here</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- -----------------------------------------------------Layout--------------------------------------- -->
+        
+        <!-- -----------------------------------------------------Input Group--------------------------------------- -->
+        <br>
+        <div class="row">
+            <div class="col input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+              
+        </div>
+        
+        <!-- -----------------------------------------------------Input Group--------------------------------------- -->
+
+        <!---------------------------------------------------------Tables --------------------------------------------------->
+        <br>
+        <table class="table table-warning table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-active">
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+        </table>
+
+        
+        <!---------------------------------------------------------Tables --------------------------------------------------->
+
+    </body>
+</html>
