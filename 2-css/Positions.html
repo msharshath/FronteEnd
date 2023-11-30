@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Positions</title>
+<p> in this document we can know the arrangement and postions of blocks</p>
+<br>
+<p> if we want to move the postions of blocks then we should use the term position<p>
+<br>
+<p>In position:relative-->left describes moving to left as (+) is moving front, (-) is moving back ; top describes moving top as (+) is moving
+ top,(-) is moving bottom ; Z-index defines this is the first block position</p>
+<br>
+<p> In  second and third blocks aree same as first one, but opacity determines even  the below overlapped block also can be able to see..so 
+normaly opacity ranges from 0 - least as inivisble , 1 - high as cannot able to see the below overlapped block</p>
+<br>
+</p>In the below four and five, we used the postition is absolute. and remaining everything is same</p>
+<br>
+<p>in The below the sixth block defines that will be constant in one place wven if we move the page up and own it will in the same place 
+and scroll with the cursor as up and down</p>
+<style type="text/css">
+#first-block{
+background-color:orange;
+font-size:34;
+color:brown;
+position:relative;
+width:120px;	
+left:105px;
+top:34px;
+Z-index:1;
+}
+
+#second-block{
+background-color:green;
+color:black;;
+width:100px;
+font-size:30;
+position:relative;
+left:-11px;
+bottom:20px;
+opacity:0.6;
+Z-index:3;
+}
+
+#third-block{
+background-color:yellow;
+color:black;;
+width:100px;
+font-size:30;
+position:relative;
+left:10px;
+top:-130px;
+opacity:0.6;
+Z-index:2;
+}
+
+#fourth-block{
+background-color:f4a4ca;
+color:black;;
+width:89px;
+font-size:30;
+position:absolute;
+left:40px;
+Z-index:5;
+opacity:0.5;
+}
+
+#fifth-block{
+background-color:DD6333;
+color:black;
+width:490px;
+font-size:30;
+position:absolute;
+left:50px;
+bottom:-490px;
+Z-index:4;
+}
+
+#sixth-block
+{
+background-color:green;
+color:black;
+width:80px;
+font-size:90;
+position:fixed;
+}
+</style>
+</head>
+<body>
+<div id="first-block">
+<p> this is the first clearing block</p>
+</div>
+<div id="second-block">
+<p> this is the second clearing block</p>
+</div>
+</div>
+<div id="third-block">
+<p> this is the third clearing block</p>
+</div>
+</div>
+<div id="fourth-block">
+<p> this is the fourth clearing block</p>
+</div>
+</div>
+<div id="fifth-block">
+<p> this is the fifth clearing block</p>
+</div>
+<div id="sixth-block">
+<p>This is the sixth block</p>
+</div>
+</body>
+</html>
